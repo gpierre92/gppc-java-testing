@@ -1,0 +1,5 @@
+tasks:
+  - init: mvn clean install
+    command: mvn spring-boot:run
+
+image: gitpod/workspace-maven
